@@ -1,0 +1,16 @@
+<!-- <app-header></app-header>
+<br>
+
+ <span class="text-success font-weight-bold m-3">Select Mobile Brand:</span>
+    <select [(ngModel)]="selectedValue" class="btn btn-outline-primary">
+        <option *ngFor="let item of items;" [value]="item.name">{{item.name}}</option>
+    </select>
+    <div class='row' [ngSwitch]="selectedValue">
+        <div *ngSwitchCase="'iphone'"> <app-iphone></app-iphone> </div>
+        <div *ngSwitchCase="'oneplus'"> <app-oneplus></app-oneplus> </div>
+        <div *ngSwitchDefault><app-product></app-product></div>
+    </div>
+ -->
+<!-- <app-signup></app-signup> -->
+<!-- <app-product-management></app-product-management> -->
+<router-outlet></router-outlet>
